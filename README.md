@@ -1,7 +1,7 @@
 Hello world
  going to learn bash shell scripting
 
-List of Shell Topics
+# List of Shell Topics
 1. Printing
 2. Variables
 3. Conditions
