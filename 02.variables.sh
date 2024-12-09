@@ -32,3 +32,8 @@ echo 2+3+4 - $add
 echo Value of x from CLI - $x
 echo Value of y from CLI - $y
 
+# Approach 2 - x=100 y=200 bash 02.variables.sh 100 200
+echo First Argument= $1
+echo Second Argument = $2
+echo All argument - $*
+echo Argument Count - $#
