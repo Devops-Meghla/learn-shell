@@ -13,3 +13,16 @@ echo ${name} Training - Faculty ${faculty}
 # When to use {} while accessing variable - In case if you have to rpint string with combination of variables
 apple=20
 echo Apple price - ${apple}Dollars
+
+#Variables Substitutions
+#Command Substitutions - you can declare a variable by executing a command and store the output in a variable
+#Syntax : var=$(command)
+
+#Arthmetic Substituiton - you can declare a variable by solving the given arithmetic expression
+#syntax: var=$((1+2-3/4))
+
+date=$(date)
+echo Today date is - $date
+
+add=$((2+3+4))
+echo 2+3+4 - $(add)

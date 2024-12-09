@@ -4,3 +4,6 @@ SAMPLE(){
 }
 SAMPLE
 SAMPLE
+
+#Variables in funtions
+#
