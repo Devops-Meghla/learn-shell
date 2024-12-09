@@ -25,4 +25,4 @@ date=$(date)
 echo Today date is - $date
 
 add=$((2+3+4))
-echo 2+3+4 - $(add)
+echo 2+3+4 - $add
