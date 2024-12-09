@@ -18,7 +18,7 @@ echo Apple price - ${apple}Dollars
 #Command Substitutions - you can declare a variable by executing a command and store the output in a variable
 #Syntax : var=$(command)
 
-#Arthmetic Substituiton - you can declare a variable by solving the given arithmetic expression
+#Arthmetic Substitution - you can declare a variable by solving the given arithmetic expression
 #syntax: var=$((1+2-3/4))
 
 date=$(date)
@@ -26,3 +26,9 @@ echo Today date is - $date
 
 add=$((2+3+4))
 echo 2+3+4 - $add
+
+#You can access variables from CLI
+#Approach 1 - x=100 y=200 bash 02.variables.sh
+echo Value of x from CLI - $x
+echo Value of y from CLI - $y
+
