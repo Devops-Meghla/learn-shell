@@ -5,9 +5,9 @@
 #for - if we have inputs then we go with this
 
 i=10
-while [$i -gt 0]; do
+while [ $i -gt 0 ]; do
   echo Hello - $i
-  i=$(($i-1))
+  i=$($i-1)
   sleep 1
   done
 
