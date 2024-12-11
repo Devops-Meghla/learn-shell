@@ -37,3 +37,14 @@ echo First Argument= $1
 echo Second Argument = $2
 echo All argument - $*
 echo Argument Count - $#
+
+#Approach 3 - export z=500 ; bash 02.variables.sh
+echo Environment Variable z - $z
+
+# Variable names can have alphabets, numbers and _ (Same for Function also)
+# Variable name styles.
+#Variable name styles. Ex: variable name is coursename
+# CamelCase - courseName
+# PascalCase - CourseName
+# snake case - course_name
+# UNIX Way ( Later Linux) - COURSE_NAME
